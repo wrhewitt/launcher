@@ -440,7 +440,7 @@ MonoBehaviour:
   m_ZDamping: 1
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 0
+  m_YawDamping: 2.1
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!1001 &808383846178252561
@@ -507,6 +507,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4502424262856216963, guid: 25b43f0c89b921248b5fae0dd30cc6b0, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4502424262856216967, guid: 25b43f0c89b921248b5fae0dd30cc6b0, type: 3}
       propertyPath: m_RootOrder
       value: 1
