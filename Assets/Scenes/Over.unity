@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e776f876d5dea4ac9b419e25457df3ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.9
+      value: -8.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e776f876d5dea4ac9b419e25457df3ee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -895,7 +895,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1510365, y: 1}
+    m_SensorSize: {x: 2.1061776, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -970,6 +970,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.366, y: 2.4268117, z: 1.7478775}
   m_Center: {x: 0, y: 0.04294109, z: 0.06381836}
+--- !u!114 &1017134323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017134314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f090d8284c2b14d89665b2b8f79c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 35, y: 0, z: 0}
+  movementFactor: 0
+  period: 5
 --- !u!1001 &1063509702
 PrefabInstance:
   m_ObjectHideFlags: 0
