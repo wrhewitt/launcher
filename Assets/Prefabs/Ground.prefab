@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3867558214069684292}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fdea6e9d353d16141b878f777e4dcab5, type: 2}
+  - {fileID: 2100000, guid: d157d2ae3a2118f4bbc79132be5edce7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

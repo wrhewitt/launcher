@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4502424263164813170}
   - component: {fileID: 4502424263164813171}
   - component: {fileID: 4248127488019730696}
+  - component: {fileID: -3706558056928494092}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -137,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3efd09d96ad668a4897c38882c499f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainEngine: {fileID: 0}
+  mainEngine: {fileID: 8300000, guid: 88a210d7a5db9e04da2fe847caae0c1b, type: 3}
   mainThrust: 1000
   rotateSpeed: 300
   leftThrusterParticles: {fileID: 2944125399880876587}
@@ -268,6 +269,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4502424262856216973}
+--- !u!114 &-3706558056928494092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502424262856216973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c1d48e5232e20469d8241afe8ca374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1162808866508706636
 PrefabInstance:
   m_ObjectHideFlags: 0
